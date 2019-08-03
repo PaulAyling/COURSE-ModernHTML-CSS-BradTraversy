@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms & Input</title>
+  </head>
+  <body>
+    <form action="process.php"></form>
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" value="John Doe"/>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter email here"/>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="50" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="Sex">Sex</label>
+      <select name="sex" id="sex">
+        <option name="male">Male</option>
+        <option name="Female" selected >Female</option>
+        <option name="Other">Not sure</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age">
+    </div>
+    <div>
+      <label for="birthdate">Birthdate</label>
+      <input type="date" name="birthdate" id="birthdate">
+    </div>
+    <div>
+      <label for="membership">Membership</label>
+      <input type="radio" name="membership" value="simple" id="membership">Simple
+      <input type="radio" name="membership" value="standard" checked id="membership">standard
+      <input type="radio" name="membership" value="Super" id="membership">Super
+    </div>
+    <div>
+      <label for="membership">Membership</label>
+      <input type="checkbox" name="likes" value="bike" id="likes">Bike
+      <input type="checkbox" name="likes" value="car" checked id="likes">car
+      <input type="checkbox" name="likes" value="plane" id="likes">plane
+    </div>
+    <!-- Input submit-->
+    <input type="submit" value="submit">
+    <!-- Button Submit -->
+    <button type="submit">Submit</button>
+    
+  </body>
+</html>

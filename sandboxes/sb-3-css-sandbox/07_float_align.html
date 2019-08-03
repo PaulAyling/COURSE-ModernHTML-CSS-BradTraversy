@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing:border-box;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+    .box{
+      background:lightgrey;
+      border: 1px solid black;
+      padding: 20px;
+      margin-bottom:10px;
+    }
+    .container {
+      max-width:960px;
+      margin:30px auto;
+    }
+    .clr{
+      clear:both
+    }
+    .box p {
+      /* Text align property */
+      text-align: right;
+      
+    }
+    #box-2 {
+      float:left;
+      width:68%
+    }
+    #box-3{
+      float:right;
+      width:30%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div id="box-1" class="box">
+  <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias enim ratione rem magnam culpa quod delectus adipisci minima repellendus inventore ex, odit pariatur explicabo impedit voluptates at eaque illum numquam!</p>
+  </h3>
+  </div>
+  <div id="box-2" class="box">
+  <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias enim ratione rem magnam culpa quod delectus adipisci minima repellendus inventore ex, odit pariatur explicabo impedit voluptates at eaque illum numquam!</p>
+  </h3>
+  </div>
+  <div id="box-3" class="box">
+  <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias enim ratione rem magnam culpa quod delectus adipisci minima repellendus inventore ex, odit pariatur explicabo impedit voluptates at eaque illum numquam!</p>
+  </h3>
+  </div>
+  <div class="clr"></div>
+  <div id="box-4" class="box">
+  <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias enim ratione rem magnam culpa quod delectus adipisci minima repellendus inventore ex, odit pariatur explicabo impedit voluptates at eaque illum numquam!</p>
+  </h3>
+  </div>
+  </div>
+</body>
+</html>
