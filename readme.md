@@ -6,7 +6,7 @@ echo "# COURSE-ModernHTML-CSS" >> README.md
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/PaulAyling/COURSE-ModernHTML-CSS.git
+git remote add origin https://github.com/PaulAyling/ModernHTML-CSS-BradTraversy.git
 git push -u origin master
 
 Update in github
